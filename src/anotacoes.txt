@@ -38,5 +38,4 @@ element.style {
  Tag vazia em React se chama Fragment ou Fragmento
 
  Componentes recebem "props" (parametros)
-
- 44:12
+ 

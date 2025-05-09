@@ -283,6 +283,19 @@ img {
   }
 }
 
+/* SongList */
+
+.song-list__see-more {
+  font-weight: 700;
+  margin-left: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.song-list__see-more:hover {
+  text-decoration: underline;
+}
+
 /* SongItem */
 
 .song-item {
@@ -321,17 +334,6 @@ img {
   display: flex;
   align-items: center;
   gap: 25px;
-}
-
-.song-list__see-more {
-  font-weight: 700;
-  margin-left: 25px;
-  margin-top: 20px;
-  cursor: pointer;
-}
-
-.song-list__see-more:hover {
-  text-decoration: underline;
 }
 
 @media (max-width: 480px) {
