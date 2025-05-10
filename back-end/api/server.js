@@ -1,8 +1,13 @@
 import express from "express";
+import cors from "cors";
 import { db } from "./connect.js";
 
 const app = express();
 const PORT = 3000;
+
+app.use(cors({
+  origin: "*"
+})); // middleware
 
 app.listen(PORT, () => {
   console.log(`servidor online na porta ${PORT}`);
