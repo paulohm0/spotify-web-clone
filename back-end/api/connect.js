@@ -5,10 +5,4 @@ const URI =
 
 const client = new MongoClient(URI);
 
-const db = client.db("spotify-clone");
-const songCollection = await db.collection("songs").find({}).toArray();
-const artistCollection = await db.collection("artist").find({}).toArray();
-
-console.log(songCollection);
-
-// 53:21
+export const db = client.db("spotify-clone");
