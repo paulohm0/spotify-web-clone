@@ -14,14 +14,15 @@ const Player = ({ duration, currentIndex, songsArrayFromArtist }) => {
   return (
     <div className="player">
       <div className="player__controllers">
-        <Link to={prevSong ? `/song/${prevSong.id}` : "#"}>
+        <Link to={prevSong ? `/song/${prevSong._id}` : "#"}>
+
           <FontAwesomeIcon icon={faBackwardStep} />
         </Link>
         <FontAwesomeIcon
           className="player__icon player__icon--play "
           icon={faCirclePlay}
         />
-        <Link to={nextSong ? `/song/${nextSong.id}` : "#"}>
+        <Link to={nextSong ? `/song/${nextSong._id}` : "#"}>
           <FontAwesomeIcon icon={faForwardStep} />
         </Link>
       </div>
