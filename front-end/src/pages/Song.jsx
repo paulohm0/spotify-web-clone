@@ -51,6 +51,7 @@ const Song = () => {
           duration={duration}
           currentIndex={currentIndex}
           songsArrayFromArtist={songsArrayFromArtist}
+          audio={audio}
         />
         <div>
           <p className="song__name">{name}</p>
