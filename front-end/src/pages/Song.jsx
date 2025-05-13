@@ -48,6 +48,7 @@ const Song = () => {
           </div>
         </Link>
         <Player
+          key={id}
           duration={duration}
           currentIndex={currentIndex}
           songsArrayFromArtist={songsArrayFromArtist}
